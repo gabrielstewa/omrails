@@ -4,14 +4,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 gem 'ruby', '2.0.0'
 
+gem 'pg'
 
-group :production do
-  gem 'pg'
-end
 
-group :developtment, :test do
-  gem 'pg'
-end
 
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
